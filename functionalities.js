@@ -22,7 +22,7 @@ const loop = setInterval(() => {
 
         mario.src = './images/game-over.png'
         mario.style.width = '70px'
-        mario.style.marginLeft = '50px'
+        mario.style.marginLeft = '40px'
 
         clearInterval(loop)
     }
